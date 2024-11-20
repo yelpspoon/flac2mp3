@@ -1,5 +1,6 @@
 #!/bin/bash
 
+# Helper for running in a local dev env.
 
 rm -rf ._*
 docker build -t streamlit-flac .
